@@ -21,6 +21,7 @@ To get a different type of widget you need to pass an argument when editing the 
 If you want to view the multi-node list, you can pass "multiTest" as the argument, this will copy the first node multiple times. I suggest you only do this if you don't have more than one node, doing so would make your multi-node list view look not so pretty.
 
 # ScriptableProxmox pseudo code
+```
 Passed Arguments?
 |\_No
 |  |\_Has More than one node?
@@ -38,6 +39,7 @@ Passed Arguments?
    |\_Is arg a VM
       |\_Yes
         |\_Display Vm view
+```
 <p align="center">
   <img src="https://github.com/mawesome4ever/Dependancies/blob/master/IMG_B2AC873952BD-1.jpeg" width="350" title="output">
 </p>
